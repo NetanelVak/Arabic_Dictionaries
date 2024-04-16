@@ -44,7 +44,7 @@ body{
     border-radius: 10%;
     margin: 0 auto;
     direction:ltr;
-    font-family: ishmael, sans-serif; 
+    font-family: ishmael; 
 }
   
 .dic p{
@@ -196,7 +196,3 @@ footer {
 
 
 }
-
-
-
-
