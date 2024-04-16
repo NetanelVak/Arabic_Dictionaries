@@ -14,13 +14,13 @@ body{
     font-family: 'Courier New', Courier, monospace; 
 }  
 
-h1{
+#headline h1{
     color: #654321;
     font-size: 9rem;
     margin-bottom: 0;   
 }
 
-h3{
+#headline h3{
     color: darkred;
     font-size: 4rem;
     margin-top: 0;
@@ -136,37 +136,50 @@ footer {
 
 }
 
-
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     body {
         background-size: cover;
     }
-
-    .logo {
-        margin-left: 0;
-        justify-content: center;
+    .madrase {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
-
-    .logo img {
-        width: 40px;
-        margin-right: 10px;
+    .madrase h3 {
+        font-size: 3rem;
+        margin-bottom: 20px;
     }
-
-    .logo .text {
-        text-align: center;
-    }
-
-    .logo h1 {
-        font-size: 1.5rem;
-    }
-
-    .logo p {
-        font-size: 0.75rem;
-    }
-
     .dic {
-        width: 90%;
-        margin: 15px auto;
+        width: 80%;
     }
-}
+    .dic p,
+    .dic .en_dic {
+        font-size: 2rem;
+        margin-right: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .logo {
+        margin-left: 2%;
+    }
+    .logo img {
+        width: 30px;
+    }
+    .logo h1 {
+        font-size: 1rem;
+    }
+    .logo p {
+        font-size: 0.5rem;
+    }
 
+    #headline h1{
+        font-size: 4.5rem;
+           
+    }
+    
+    #headline h3{
+        color: darkred;
+        font-size: 2rem;
+        margin-top: 0;
+
+
+}
