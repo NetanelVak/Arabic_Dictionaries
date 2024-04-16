@@ -22,19 +22,21 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    font-family: 'Courier New', Courier, monospace; 
+ 
 }  
 
 #headline h1{
     color: #654321;
     font-size: 9rem;
-    margin-bottom: 0;   
+    margin-bottom: 0;
+    font-family: ishmael;
 }
 
 #headline h3{
     color: darkred;
     font-size: 4rem;
     margin-top: 0;
+    font-family: ishmael;
        
 }
 #headline{    
@@ -42,7 +44,7 @@ body{
     border-radius: 10%;
     margin: 0 auto;
     direction:ltr;
-    font-family: ishmael; 
+    
 }
   
 .dic p{
@@ -51,7 +53,7 @@ body{
     margin-right: 5%;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-family: ishmael; 
+    font-family: ishmael;
     text-align: center;
     
 }
@@ -104,6 +106,7 @@ body{
     font-size: 5rem;
     margin-bottom: 40px;
     color: #333;  
+    font-family:ishmael;
 }
 
 hr{
@@ -194,3 +197,7 @@ footer {
 
 
 }
+
+
+
+
