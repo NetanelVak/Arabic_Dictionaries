@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Ramadhan Karim';
+    font-family:'Ramadhan Karim';
     src: url(My projects\arabic dec\fonts\Ramadhankarim-oww20.ttf) format('truetype');
 
 }
@@ -44,7 +44,7 @@ body{
     border-radius: 10%;
     margin: 0 auto;
     direction:ltr;
-    font-family: ishmael, sans-serif;;  
+    font-family: ishmael, sans-serif; 
 }
   
 .dic p{
@@ -64,7 +64,7 @@ body{
     margin-right: 5%;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-family: 'Ramadhan Karim';
+    font-family:'Ramadhan Karim';
     font-weight: bold; 
 
 }
